@@ -1,0 +1,40 @@
+body {
+  overflow-x: hidden;
+  margin-top:90px;
+}
+.wiki-logo2 {
+  margin:10px 20px;
+  
+  background: -webkit-linear-gradient(#FFFFFF, #4353FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: 0.5s ease-out 0s 1 alternate text-show;
+}
+.wiki-back-icon {
+  height:40px;
+  filter:invert();
+}
+.wiki-text {
+  color:white;
+  margin-left:15px;
+  font-family:'Montserrat';
+  font-size:30px;
+  text-align: center;
+  font-weight: 700;
+}
+.wiki-top-part {
+  margin-top: 100px;
+}
+.applications-dev {
+  color:white;
+  font-family: 'Montserrat';
+  margin:20px;
+}
+.discord-button {
+  margin-top:0;
+  margin-bottom:500px;
+}
+.bottom-navbar {
+  margin-top:1500px;
+}

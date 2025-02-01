@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>ICESHNILD — приватный Minecraft сервер</title>
+  </head>
+  <body>
+    
+    <div class="to-top-button">
+      <img class="to-top-img" src="images/to-top.png">
+    </div>
+     <div class="window-gray" onclick="
+       otherWindowClose();
+     ">
+       
+     </div>
+    <div class="other-window">
+      
+    </div>
+    <!--Navbar-->
+    <div class="navbar">
+      <div class="navbar-grid">
+        <div class="left-navbar-ham-icon-div">
+          <button class="left-navbar-ham-button" onclick="
+            otherWindowOpen();
+          ">
+            <img class="left-navbar-ham-icon-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1200px-Hamburger_icon_white.svg.png">
+          </button>
+        </div>
+        <div class="center-navbar-sl-logo-div">
+          <button class="navbar-logo-button" onclick="
+            toTop();
+          ">
+            <img class="center-navbar-sl-logo-img" src="images/sl-title.png">
+          </button>
+          
+        </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <!--Top part of site-->
+    <div class="top-part">
+      <canvas> </canvas>
+      <div class="top-part-inside">
+        <img src="images/sl-logo.jpg" class="sl-logo-top-part">
+        <div class="starland-title">
+           ICESHNILD
+        </div>
+        <div class="server-description">
+          <span class="free-and-private-text">Бесплатный приватный</span> сервер для ванильного выживания<br><br>3-й сезон<br>Minecraft 1.20+<br><span style="font-size: 15px" class="server-online">Онлайн: Загрузка...</span>
+        </div>
+        
+        <div>
+          <button class="discord-button2" onclick="
+            window.open('https://discord.gg/8qm9c7YFk7')
+          ">
+            <img class="discord-logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png"> Наш Дискорд
+          </button>
+          
+          <div class="wiki-rules-buttons-div">
+            <form action="wiki.html" target="_self">
+               <button class="wiki-button">
+                 <img class="wiki-logo"src="images/wiki-icon.png">Вики
+               </button>
+            </form>
+            <form action="rules.html" target="_self">
+              <button class="rules-button">
+               <img class="rules-logo"src="images/rules-icon.png">Правила
+              </button>
+            </form> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="server-stat-part">
+      <div class="stat-total-ds-members stat-part">
+        <img class="stat-img" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png">
+        <div class="stat-num ds-stat-num">
+          Загрузка...
+        </div>
+        <div class="stat-description">
+          Участников в Дискорде
+        </div>
+      </div>
+      
+      <div class="servers-stat-part stat-part">
+        <img class="stat-img" src="images/server-icon.png">
+        <div class="stat-num cyan-gradient">
+          1 сервер
+        </div>
+        <div class="stat-description">
+          Основа
+        </div>
+      </div>
+      
+      <div class="server-tps-part stat-part">
+        <img class="stat-img" src="images/electricity-icon.png">
+        <div class="stat-num cyan-gradient yellow-gradient">
+          Стабильный TPS
+        </div>
+        <div class="stat-description">
+          Много возможностей, ядро Paper
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <img class="ip-chest-icon" src="images/chest-icon.png">
+      <div class="copy-ip-text">
+        Скопируй IP и играй! <br>
+      </div>
+      <div class="standart-port">
+        Стандартный порт
+      </div>
+      <div class="ip-copy-buttons">
+        <button class="ip-copy-button">
+          iceshnild.20tps.ru
+        </button>
+      </div>
+    </div>
+
+
+    <!--<div class="starland-gallery">
+      <div class="starland-gallery-part">
+        Маленький онлайн<br>
+        <img class="starland-gallery-img  starland-gallery-online" src="images/screen1.png">
+      </div>
+    </div>-->
+    
+
+    <div class="instruction">
+      <img src="images/minecraft-icon.png" class="instruction-minecraft-icon">
+      <div class="instruction-logo">
+        Как попасть на сервер
+      </div>
+
+      <div class="instruction-content">
+        <div class="instruction-part">
+          <span class="instruction-num">1.</span> Зайдите в наш <a class="s" href="https://discord.gg/8qm9c7YFk7">Discord</a>
+        </div>
+        <div class="instruction-part">
+          <span class="instruction-num">2.</span> Отправьте заявку
+        </div>
+        <div class="instruction-part">
+          <span class="instruction-num">3.</span> Ждите когда вам напишет администратор
+        </div>
+        <div class="instruction-part">
+          <span class="instruction-num">4.</span><u><a onclick="
+              window.scrollTo({
+                top: 1900,
+                left: 0,
+                behavior: 'smooth'
+            });
+          ">Скопируйте IP</a></u> и играйте!
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="starland-gallery"></div>
+      <div class="starland-gallery-part">
+        Красивые постройки<br>
+        <img class="starland-gallery-img starland-gallery-building" src="images/building1.png">
+      </div>
+    </div>-->
+    
+    <div class="bottom-navbar">
+      <img class="bottom-navbar-sl-title" src="images/sl-title.png">
+      <p class="bottom-navbar-text">Создатель сайта: RATcraft<br>Создатель сервера: Arktik7</p>
+      <div class="bottom-navbar-social-network">
+        <img class="vk-icon soc-icon" src="images/soc-vk.png" onclick="window.open('https://vk.com/iceshnild')">
+        <img class="soc-icon" src="images/soc-youtube.png" onclick="window.open('https://www.youtube.com/@ICESHNILD')">
+        <img class="soc-icon" src="images/soc-discord.png" onclick="window.open('https://discord.gg/8qm9c7YFk7')">
+        <img class="soc-icon" src="images/soc-telegram.png" onclick="window.open('https://t.me/iceshnild')">
+      </div>
+    </div>
+   
+    <script src="data/data.js"></script>
+    <script src="script/functions.js"></script>
+    <script src="script/starland.js"></script>
+    <script src="script/canvas.js"></script>
+    <script src="script/events.js"></script>
+  </body>
+</html>
